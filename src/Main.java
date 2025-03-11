@@ -12,7 +12,7 @@ public class Main {
         int sum = 0;
         int dj5 = 0;
         for (int i = 1; i < 100; i++) {
-            if (i % 4 == 0) {
+            if (i % 2 == 0) {
                 sum = sum + i;
             }
         }
