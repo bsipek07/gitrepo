@@ -20,6 +20,28 @@ public class Main {
 
     public static void main(String[] args) {
         int sum = 0;
+        int a=2;
+        int b=3;
+;
+
+        double zbr=0;
+        double korijen=0;
+
+        zbr = Math.pow(a,b)+(float)b/a;
+        korijen = Math.sqrt(a);
+        switch(a){
+            case 10:{
+                System.out.println("Broj je 10");
+                break;
+            }
+            case 5: System.out.println("Na pola puta");
+            default:a+=1;
+
+        }
+
+        System.out.println(a);
+
+        System.out.println(zbr);
 
         for (int i = 1; i < 100; i++) {
             if (i % 4 == 0) {
